@@ -5,7 +5,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 class MainTest {
 
     @Test
-    void fizzBuzz() throws Exception {
+    void fizzBuzz() {
         assertEquals("fizzbuzz", Main.fizzBuzz(15, ""));
     }
 
