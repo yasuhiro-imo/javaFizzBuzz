@@ -1,12 +1,16 @@
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class MainTest {
 
     @Test
     void fizzBuzz() throws Exception {
-        assertEquals("fizzbuzz", Main.fizzBuzz(15, ""));
+        try {
+            assertEquals("fizzbuzz", Main.fizzBuzz(15, ""));
+        } catch (Exception e) {
+            throw new Exception();
+        }
     }
 
     @Test
