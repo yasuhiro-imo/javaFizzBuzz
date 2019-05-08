@@ -1,6 +1,6 @@
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class MainTest {
 
@@ -21,6 +21,6 @@ class MainTest {
 
     @Test
     void number() throws Exception {
-        assertEquals("7", Main.fizzBuzz(7, ""));
+        assertEquals("2", Main.fizzBuzz(2, ""));
     }
 }
